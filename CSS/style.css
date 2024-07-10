@@ -154,7 +154,28 @@ time.full{
 
     main{
         margin-top: 0;
+        flex: 1;
     }
 
+    h1{
+        text-align: left;
+    }
+
+    time.full{
+        display: block;
+    }
+
+    time.short{
+        display: none;
+    }
     
-};
+}
+
+section .card-bg{
+    animation: appear 1.2s;
+}
+@keyframes appear {
+    from {
+        opacity: 0;
+    }
+}
